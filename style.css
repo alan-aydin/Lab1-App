@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Stack+Sans+Headline:wght@200..700&display=swap");
+
+:root {
+  --color-green: #0c3c3b;
+  --color-yellow: #ffc53e;
+  --color-black: #171717;
+  --color-white: #f9f3f1;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+nav {
+    padding: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.circle {
+    position: absolute;
+    color: var(--color-yellow);
+    border-radius: 30px;
+    border: 10px solid;
+    border-width: 10px;
+    left: 460px;
+    top: 35px;
+}
+
+.number {
+    position: absolute;
+    left: 466px;
+    top: 38px;
+    font-size: 0.8em;
+}
+
+nav input {
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    color: var(--color-black);
+    border: 2px solid var(--color-black);
+    border-radius: 20px;
+    padding-left: 30px;
+}
+
+nav input::placeholder {
+    color: var(--color-black);
+}
+
+.searchbar img {
+    position: absolute;
+    width: 3%;
+    top: 112px;
+    left: 40px;
+}
+
+header {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.trending h2 {
+    margin-top: 30px;
+}
+
+.trending img {
+    border-radius: 100px;
+    width: 15%;
+}
+
+.trending-img {
+    display: flex;
+    gap: 25px;
+}
+
+.feed h2 {
+    margin-top: 30px;
+}
+
+.feed-img article {
+    width: 200px;
+}
+
+.feed-img h3{
+    margin: 10px 0px 
+}
+
+.feed-img p {
+    margin-bottom: 10px;
+}
