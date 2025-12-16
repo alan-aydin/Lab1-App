@@ -109,7 +109,7 @@ header article {
 }
 
 .test h1 {
-    margin: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 header article p {
@@ -153,12 +153,12 @@ header article img {
 }
 
 .heart-btn a {
-    text-decoration: none;
+  text-decoration: none;
   color: var(--color-black);
 }
 
 .heart-btn span {
-    border: 2px solid var(--color-yellow);
+  border: 2px solid var(--color-yellow);
   border-radius: 100px;
   background-color: var(--color-yellow);
   padding: 2px 10px;
@@ -166,30 +166,29 @@ header article img {
 }
 
 .heart-btn img {
-    width: 15px;
+  width: 15px;
 }
 
 .product h2 {
-    font-weight: 500;
-    font-size: 1.2em;
-    margin: 10px 0px 5px 0px;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 10px 0px 5px 0px;
 }
 
 .product span {
-    font-size: 1.2em;
-    font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .testt {
-    display: flex;
-    
+  display: flex;
 }
 
 .btn {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 30px;
 }
 
 main {
@@ -218,7 +217,6 @@ main {
 
 .feed-img article {
   width: 190px;
-
 }
 
 .feed-img h3 {
@@ -231,7 +229,11 @@ main {
 }
 
 .feed-img img {
-    width: 190px;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  background-color: var(--color-green);
+  border-radius: 20px;
 }
 
 .feed-img {
@@ -292,4 +294,12 @@ footer {
 
 footer img {
   width: 30px;
+}
+
+.prod-img img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  background-color: var(--color-green);
+  border-radius: 20px;
 }
