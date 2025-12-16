@@ -163,13 +163,13 @@ main {
 footer {
   background-color: var(--color-green);
   display: flex;
-  padding: 25px;
+  padding: 30px;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 90%;
+  width: 89%;
 }
 
 footer img {
